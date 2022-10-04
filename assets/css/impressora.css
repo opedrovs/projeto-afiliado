@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cabecalho-conteudo {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cabecalho-conteudo > p { color: #3d3d3d; }
+
+.botao-garantir { display: none; }
+
+.poder-conteudo > p { color: #3d3d3d; }
+
+.garantia { flex-direction: column-reverse; }
+
+.garantia > img { margin-bottom: 0; }
+
+.depoimentos > h2 { color: #ba75fa; }
+
+.depoimentos > p { color: #3d3d3d; }
+
+.opcao { width: 80%; }
+
+.opcao > .botao-comprar { display: none; }
+
+.seguranca > p { color: #3d3d3d; }
+
+.video { display: none; }
+
+.rodape-escrito h3 { color: black; }
+
+.rodape-escrito li { color: #3d3d3d; }
+
+.rodape p { color: #3d3d3d; }
+
+.links { display: none; }
+
+.conteudo-midias-icones img{ display: none; }
+
+.conteudo-midias-escrito { display: block; }

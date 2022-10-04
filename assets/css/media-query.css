@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1210px) {
+    header {
+        display: block;
+        background-image: none;
+        padding: 20px 0;
+    }
+
+    .cabecalho-conteudo {
+        display: block;
+        margin: auto;
+    }
+
+    .cabecalho-conteudo > p { font-size: 15px; }
+
+    header > img {
+        display: block;
+        margin: auto;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1114px) {
+    .poder > img {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .garantia { flex-direction: column-reverse; }
+
+    .garantia > img { margin-bottom: 0; }
+
+    .depoimentos { margin: 0; }
+}
+
+@media screen and (max-width: 520px) {
+    .depoimentos-conteudo > img { width: 100%; }
+}
+
+@media screen and (max-width: 465px) {
+    .poder > img { width: 100%; }
+
+    .garantia > img { width: 100%; }
+
+    .selos > .pagamentos { width: 100%; }
+}
+
+@media screen and (max-width: 336px) {
+    .poder-conteudo > h2 { font-size: 2.5em; }
+
+    .garantia-conteudo > h2 { font-size: 1.6em; }
+
+    .opcoes > h2 { font-size: 2em; }
+
+    .seguranca > h2 { font-size: 2.3em; }
+
+    .seguranca > h3 { font-size: 1.2em; }
+
+    .resultados-conteudo > h2 { font-size: 2em; }
+
+    .resultados > img { width: 200px; }
+
+    .faq-conteudo > h2 { font-size: 2.3em; }
+}
+
+@media screen and (max-width: 295px) {
+    .rodape-escrito-metodo-pagamento > img { width: 100%; }    
+}
