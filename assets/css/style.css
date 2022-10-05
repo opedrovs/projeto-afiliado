@@ -42,7 +42,6 @@ header {
 }
 
 .cabecalho-conteudo > h1 {
-    font: normal 3em var(--font-lobster);
     margin-bottom: 18px;
 }
 
@@ -50,10 +49,11 @@ header {
 
 .logo01 {
     color: white;
-    font: bold 1em var(--font-padrao);
+    font: bold 3em var(--font-padrao);
 }
 
 .logo02 {
+    font: normal 3em var(--font-lobster);
     color: #eb87d2;
 }
 
@@ -295,7 +295,7 @@ main > section {
 }
 
 .opcao:hover {
-    box-shadow: 6px 6px 10px #0000002c;
+    box-shadow: 6px 6px 10px #00000015;
     transform: translate(0px, -10px);
 }
 
@@ -572,7 +572,7 @@ main > section {
 
 .rodape > h2 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1em;
 }
 
 .rodape-escrito h3 {
@@ -596,6 +596,7 @@ main > section {
 
 .rodape-escrito li {
     color: #f2eafa;
+    line-height: 25px;
 }
 
 .rodape-escrito a {

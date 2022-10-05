@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+:root {
+    --font-padrao: Arial, Helvetica, Verdana, sans-serif;
+    --font-lobster: 'Lobster', cursive;
+    --font-staatliches: 'Staatliches', cursive;
+    --font-tauri: 'Tauri', sans-serif;
+    --font-black-han: 'Black Han Sans', sans-serif;
+}
+
+.cabecalho-conteudo {
+    margin-left: 33%;
+}
+
+.cabecalho-conteudo > p > a {
+    color: #ffecef;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cabecalho-conteudo > p > a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.conteudo-principal-subpagina {
+    max-width: 1200px;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.conteudo-principal-subpagina > h1 {
+    color: black;
+    font: 500 1.8em var(--font-tauri);
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.conteudo-principal-subpagina > h2 {
+    color: black;
+    font: 500 1.3em var(--font-tauri);
+    margin-top: 50px;
+}
+
+.conteudo-principal-subpagina > p {
+    margin: 15px 0px;
+    line-height: 25px;
+    color: #414141;
+}
