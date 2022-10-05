@@ -4,9 +4,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+header {
+    display: block;
+}
+
 .cabecalho-conteudo {
     max-width: 600px;
     margin: 0 auto;
+}
+
+header > img {
+    display: block;
+    margin: auto;
 }
 
 .cabecalho-conteudo > p { color: #3d3d3d; }
