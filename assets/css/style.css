@@ -92,7 +92,7 @@ header > img {
 }
 
 main > section {
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 .beneficios {
@@ -131,12 +131,14 @@ main > section {
 
 .beneficios-conteudo-item > h3 {
     color: #eb62c8;
+    font-family: var(--font-tauri);
 }
 
 .beneficios-conteudo-item > p {
     color: #363636;
     text-align: justify;
     line-height: 23px;
+    margin: 10px 0;
 }
 
 .poder {
@@ -149,7 +151,7 @@ main > section {
 
 .poder-conteudo {
     max-width: 650px;
-    padding: 20px;
+    padding: 25px;
 }
 
 .poder-conteudo > h2 {
@@ -170,7 +172,7 @@ main > section {
 .poder > img {
     width: 450px;
     margin-left: auto;
-    margin-bottom: -22px;
+    margin-bottom: -32px;
 }
 
 .garantia {
@@ -184,7 +186,7 @@ main > section {
 
 .garantia > img {
     width: 450px;
-    margin-bottom: -84px;
+    margin-bottom: -40px;
 }
 
 .garantia-conteudo {
@@ -193,7 +195,7 @@ main > section {
 }
 
 .garantia-conteudo > h2 {
-    font-size: 2.5em;
+    font-size: 2.3em;
     color: #770477;
 }
 
@@ -203,7 +205,7 @@ main > section {
 
 .garantia-conteudo > p {
     color: #363636;
-    margin: 10px 0;
+    margin: 15px 0;
     line-height: 23px;
 }
 
@@ -230,15 +232,16 @@ main > section {
     color: white;
     text-align: center;
     font: normal 2em var(--font-tauri);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
 .depoimentos > p {
-    color: #f3e3f2;
+    color: #f2eafa;
     max-width: 400px;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 15px auto;
     text-align: center;
+    line-height: 23px;
 }
 
 .depoimentos .destaque {
@@ -260,7 +263,7 @@ main > section {
 
 .opcoes > h2 {
     color: #a81283;
-    font: normal 3.8em var(--font-staatliches);
+    font: normal 3.5em var(--font-staatliches);
     text-align: center;
     margin: 20px 0px;
 }
@@ -394,7 +397,7 @@ main > section {
 
 .seguranca > p {
     color: #f7eceb;
-    max-width: 850px;
+    max-width: 865px;
     margin: 15px auto;
     line-height: 25px;
 }
@@ -412,7 +415,7 @@ main > section {
     background-color: white;
     border-radius: 3px;
     padding: 8px;
-    max-width: 190px;
+    max-width: 200px;
     max-height: 300px;
     margin: 5px auto;
     text-align: center;
@@ -468,20 +471,24 @@ main > section {
     animation: girar 3s infinite alternate-reverse;
 }
 
-.video {
+.conteudo-video {
     background-color: #b81a90;
 }
 
-.video-area {
+.conteudo-video-area {
     display: block;
     margin: auto;
     max-width: 1000px;
-    position: relative;
-    padding: 15px;
-    padding-bottom: 34.7%;
 }
 
-.video-area > iframe {
+.video {
+    margin: auto;
+    position: relative;
+    padding: 15px;
+    padding-bottom: 56.7%;
+}
+
+.video > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -574,7 +581,7 @@ main > section {
 }
 
 .rodape-escrito p {
-    color: #ffdddc;
+    color: #f2eafa;
     text-align: justify;
     max-width: 265px;
     font-size: 14px;
@@ -588,11 +595,11 @@ main > section {
 }
 
 .rodape-escrito li {
-    color: #ffdddc;
+    color: #f2eafa;
 }
 
 .rodape-escrito a {
-    color: #ffd6d4;
+    color: #dfc8f5;
     text-decoration: none;
 }
 
